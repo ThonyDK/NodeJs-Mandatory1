@@ -1,0 +1,103 @@
+body {
+  background-image: url("../../images/nodejs.png");
+}
+
+
+.p1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px; 
+  text-align: left;
+  font-weight: bolder;
+}  
+.p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+}
+.p3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px; 
+  text-align: left;
+  font-weight: bolder;
+}
+.p4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px; 
+  text-align: left;
+  font-weight: bolder;
+}
+
+.flex-main-container{
+  width: 64%;
+  margin-left: 18%;
+  display: flexbox;
+  border-width:2px;
+  border-style:solid; 
+  border-color:#000000;
+}
+
+.flex-container1 {
+width: 35%;
+margin-left: 32%;
+flex-direction: column;
+background-color: rgb(253, 254, 254);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px; 
+text-align: left;
+display: flex;
+}
+
+.flex-container2 {
+width: 35%;
+margin-left: 32%;
+display: flex;
+flex-direction: column;
+background-color: rgb(4, 170, 32);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px; 
+text-align: left;
+}
+.flex-container3 {
+width: 35%;
+margin-left: 32%;
+display: flex;
+flex-direction: column;
+background-color: rgb(75, 117, 164);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px; 
+text-align: left;
+}
+
+.flex-container4 {
+width: 35%;
+margin-left: 32%;
+display: flex;
+flex-direction: column;
+background-color: rgb(8, 171, 38);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px; 
+text-align: left;
+}
+
+.flex-container5 {
+  width: 35%;
+  margin-left: 32%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(202, 160, 8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px; 
+  text-align: left;
+  }
+
+  .flex-container6 {
+    width: 35%;
+    margin-left: 32%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 57, 202);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; 
+    text-align: left;
+    }

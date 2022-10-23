@@ -1,0 +1,90 @@
+/* Add a black background color to the top navigation */
+body {
+  background-image: url("../../images/nodejs.png");
+}
+
+
+.p1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px; 
+  text-align: left;
+}  
+.p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+}
+.p3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px; 
+  text-align: left;
+  font-weight: bolder;
+}
+.p4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px; 
+  text-align: left;
+  font-weight: bolder;
+}
+
+.flex-main-container{
+  width: 64%;
+  margin-left: 18%;
+  display: flexbox;
+  border-width:2px;
+  border-style:solid; 
+  border-color:#000000;
+}
+
+.flex-container1 {
+width: 35%;
+margin-left: 25%;
+flex-direction: column;
+background-color: rgb(4, 170, 32); 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px; 
+text-align: left;
+display: flex;
+}
+
+.flex-main-container{
+  width: 64%;
+  margin-left: 18%;
+  display: flexbox;
+  border-width:2px;
+  border-style:solid; 
+  border-color:#000000;
+}
+
+.flex-container2 {
+width: 35%;
+margin-left: 40%;
+display: flex;
+flex-direction: column;
+background-color: rgb(253, 254, 254); 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px; 
+text-align: left;
+}
+
+.flex-container3 {
+width: 35%;
+margin-left: 25%;
+display: flex;
+flex-direction: column;
+background-color: rgb(75, 117, 164);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px; 
+text-align: left;
+}
+.flex-container4 {
+  width: 35%;
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(94, 115, 98);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px; 
+  text-align: left;
+  }

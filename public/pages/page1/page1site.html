@@ -1,0 +1,142 @@
+
+    <div class="body">
+        <div class="p3" style="text-align: center">
+            <h1>NodeJs page 1</h1>
+        </div>
+        <div class="flex-main-container">
+            <div class="flex-container1"> 
+                <span class="p2">NodeJs:</span>
+                Is a an open source cross-platform runtime enviroment to execute javascript code
+                outside of a browser.
+                We use nodeJs to build backend services also called api(application Programming interface).
+                NodeJs is a good tool because we can build highly scalable services. Many companies world wide uses NodeJs
+                because its competible to javascript and javascript is a very used language. Through Nodejs you can use javascript code to build backend code. 
+                This makes it possible for a developer to work as a full stack developer in a company. 
+                <br>
+                <br>
+                <span class="p1">Below you will find guideline how to use nodejs using express --> </span> 
+                <br> 
+            </div>
+            <span>
+            <br>
+            </span>
+            <div class="flex-container2">
+                <span class="p2">Add package.json:</span>
+                This file contains metadata and the dependencies we are going to use in the program. 
+                To use it we haft to install it. First af all you haft "npm init". 
+                This will guide you through the setup to create package.json. 
+                <span class="p4">Snippet example of npm init: </span>
+                <img src="../images/npm init.PNG" width="400px" alt="">    
+            </div>
+            <span>
+            <br>
+            </span>
+            <div class="flex-container3"> 
+                <span class="p2">Package.json:</span>   
+                Now we have the package.json and then we need to add some dependencies that our program 
+                is going to depend on. 
+                <span class="p4">Snippet example of package.json :</span>
+                <img src="../images/package.json.PNG" width="300px" alt="">
+            </div>
+            <span>
+            <br>
+            </span>
+            <div class="flex-container4">    
+                <span class="p2">Install express:</span>
+                Express is a node js web application framework that provides broad features for building web and mobile applications. 
+                It is used to build a single page, multipage, and hybrid web application.
+                <br>
+                <br>
+                Now we haft to install express by typing npm install express in the terminal.
+                <span class="p4">Snippet example of "npm install express":</span>
+                <img src="../images/install_express.PNG" width="400px" alt="">     
+            </div>
+            <br>
+            <div class="flex-container5"> 
+                <span class="p2">Import express:</span>   
+                we also haft to make our app.js that contain all the endpoint to be executed, when a request or response is made from client.
+                This file has sometimes different name as the alias server.js. 
+                To use express we just installed we haft to import express from the library. 
+                <span class="p4">Snippet of import express to app.js:</span>
+                <img src="../images/import_express.PNG" width="250px" alt="">   
+            </div>  
+            <br>
+            <div class="flex-container6">    
+                <span class="p4">Snippet of installed things: package.json/package-lock.json/node_modules and app.js:</span>
+                This files are all the dependencies we use to our program, and the modules is the express method that we 
+                are allowed to use because the installation of express. 
+                <img src="../images/complete.PNG" width="400px" alt=""> 
+                As you can se we now have a functionel site that prints "Hello world" and we have set it to run the program on
+                port 8080 that we use to develop the program locally. 
+            </div> 
+            <br>
+            <div class="flex-container7"> 
+                <span class="p2">Serving html</span>    
+                To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express.
+                <span class="p4">Snippet of middleware:</span>
+                <img src="../images/app_serving_html.PNG" width="250px" alt="">   
+            </div> 
+            <br>
+            <div class="flex-container8"> 
+                <span class="p2">Routes in app.js</span>   
+                Rotues are specified in our app.js. The route requires a method. In that method we give arguments
+                one endpoint and a callback function with 2 arguments/parameters that we name request and response. 
+                This endpoint below will execute the frontpage which means that when the client request for the endpoint, then the frontpage will show up. 
+                <span class="p4">Snippet of import express to app.js:</span>
+                <img src="../images/GETfrontpage.PNG" width="250px" alt="">   
+                <span class="p4">--> Notice that on page 4 will explain about the full CRUD API</span> 
+            </div> 
+            <br>
+            <div class="flex-container9"> 
+                <span class="p2">Nodemon:</span>   
+                Nodemon is a popular tool that is used for the development of applications based on node.js. 
+                It simply restarts the node application whenever it observes a changes in the file. It is presentet 
+                in our enviroment variables to run everytime that enviroment variable script runs.  
+                Futher information will be discribed below. 
+                <span class="p4">Snipped of nodemon install and run command:</span>
+                <img src="../images/nodemon_install.PNG" width="350px" alt=""> 
+                <img src="../images/nodemon_execute.PNG" width="350px" alt="">  
+            </div> 
+            <br>  
+            <div class="flex-container10"> 
+                <span class="p2">Enviroment variables: </span>   
+                When it comes to setup enviroment variables then we need to add a script into the package.json
+                that contain our dependencies.
+                We also need to add cross-env in our dependencies, of that reason that we need to use it in the script.
+                The script can hold different ways to start the application 
+                with or without i a feature. 
+                If you look at the example below then you will find a way to make sure that the application will run on 
+                a port. If we had to deploy the application then it needs to run on a port. It will then 
+                try to find the port to run, but if it do not find a port then it will allways run on port 8080 which means that it 
+                will run locally on the machine.  
+                So if we didnt access the enviroment variable through the script in package.json then it would allways run on port 8080.
+                as illustrated in the first snipped.  
+                <span class="p4">First snippet:</span>
+                <img src="../images/without_env.PNG" width="350px" alt="">
+                Second snippet show how the script make sure that it search for the right port before it will go to port 8080.
+                To access the script we use process.env as illustrated below. 
+                <span class="p4">Second snippet</span>
+                <img src="../images/with_env.PNG" width="350px" alt="">   
+            </div> 
+            <br>
+            <div class="flex-container11"> 
+                <span class="p2">SSR and CSR:</span>   
+                To make the app run as ssr then we need to add a javascript file with the alias templateEngine. This peace of code will be the keyholder to render pages
+                and in the same time also exclude redundancy of code. For example having a navbar rendering from the navbar directory instead of having navbar on multiple html sites.  
+                inside the templateEngine there will be used a method called fs. Fs is a importet method that makes it possible to readFile like html pages. 
+                The templateEngine that holds the renderpage function will make sure that the right html page will come to the client and with the right css styling to the page.  
+                <br>
+                Client side rendering also called csr is another way to make the application running. Client-side rendering means that a websites 
+                JavaScript is rendered in your browser, rather than on the websites server. 
+                So now, instead of getting all the content from the HTML doc, only the required HTML with the JS files will be rendered. 
+                <span class="p4">So the question is why use ssr vs csr?: </span> 
+                Server-side rendering is better for SEO than client-side rendering. 
+                This is because server-side rendering can speed up page load times, 
+                which not only improves the user experience, but can help your site rank to be better in Google search results.
+                <span class="p4">Snippet of template engine:</span> 
+                <img src="../images/template_engine.PNG" width="480px" alt="">   
+            </div>                      
+        </div>
+    </div>      
+</body>
+</html>

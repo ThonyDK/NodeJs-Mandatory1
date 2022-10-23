@@ -1,0 +1,4 @@
+const apple = 1
+const banana = 3
+//The total can change if it has diffenrent variables in it. 
+let total = apple + banana; 

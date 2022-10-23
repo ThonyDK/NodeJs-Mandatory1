@@ -1,0 +1,13 @@
+
+body {
+    background-image: url("../../images/nodejs.png");
+}
+
+.flex-main-container{
+    width: 64%;
+    margin-left: 18%;
+    display: flexbox;
+    border-width:2px;
+    border-style:solid; 
+    border-color:#000000;
+  }

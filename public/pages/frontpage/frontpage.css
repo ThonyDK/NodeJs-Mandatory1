@@ -1,0 +1,35 @@
+/* Add a black background color to the top navigation */
+body {
+    background-image: url("../../images/nodejs.png");
+}
+
+.p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}  
+.p2 {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+.p3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px; 
+    font-weight: bolder;
+    text-align: center;
+}
+
+.flex-container1 {
+    width: 20%;
+    margin-left: 40%;
+    display: flexbox;
+    border-width:2px;
+    border-style:solid; 
+    border-color:#000000;    
+}
+
+
